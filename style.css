@@ -1,0 +1,174 @@
+.menu{
+    font-weight: bold;
+    color: #fff;
+    background-color: #45015d;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.menu a{
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+.menu a:hover{
+    color: #000;
+    background-color: #fff;
+}
+h1{
+    font-weight: 400;
+    font-size: 54px;
+}
+.main{
+    margin-left: 360px;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.images img{
+    width: 45%;
+    border-radius: 10px;
+    margin: 5px;
+    opacity: 0.7;
+    transition: 0.7s;
+}
+.images img:hover{
+    opacity: 1;
+}
+hr{
+    width: 100%;
+    border: 5px solid #45015d;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+h2{
+    color: #45015d;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.member{
+    display: inline-block;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.member img{
+    width: 100%;
+    border-radius: 10px;
+    filter: grayscale(30%);
+}
+.member .descprition{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 2px 16px 5px;
+}
+.member .position{
+    color: gray;
+}
+.tariff{
+    display: inline-block;
+    width: 49%;
+    padding: 0 8px;
+    min-width: 150px;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+}
+.tariff ul{
+    background-color: #f1f1f1;
+    color: black;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.tariff li{
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 16px 0;
+}
+.tariff .tariff-name{
+    color: white;
+    background-color: #45015d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+    padding: 32px 0;
+}
+.tariff .price{
+    font-size: 30px;
+    font-weight: 400;
+}
+.tariff .period{
+    opacity: 0.7;
+}
+.tariff button{
+    color: #45015d;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+}
+.tariff button:hover{
+    color: white;
+    background-color: #45015d;
+}
+.pro button{
+    background-color: #f44336;
+    color: white;
+}
+.pro .tariff-name{
+    background-color: #f44336;
+}
+#contact input{
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#contact button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #45015d;
+    border-radius: 10px;
+    padding: 12px 24px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    transition: 0.4s;
+}
+#contact button:hover{
+    color: #000;
+    background: #ccc;
+}
+#footer{
+    padding: 32px 58px;
+    background-color: #fff;
+    text-align: right;
+}
+#disagners,#services,#packages,#contact,#footer{
+    margin-top: 75px;
+}
